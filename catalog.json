@@ -1,0 +1,241 @@
+{
+  "products": {
+    "monitor": [
+      {
+        "id": "mon_001",
+        "name": "Dell UltraSharp 27\" 4K Monitor",
+        "price": 399.99,
+        "category": "monitor",
+        "specs": {"resolution": "4K", "size": "27inch", "ports": ["hdmi", "usb_c"]},
+        "compatibility_tags": ["4k_monitor", "professional"]
+      },
+      {
+        "id": "mon_002",
+        "name": "ASUS Gaming Monitor 24\" 1080p",
+        "price": 179.99,
+        "category": "monitor",
+        "specs": {"resolution": "1080p", "size": "24inch", "ports": ["hdmi"]},
+        "compatibility_tags": ["gaming_monitor", "1080p_monitor"]
+      }
+    ],
+    "keyboard": [
+      {
+        "id": "kb_001",
+        "name": "Logitech MX Keys for Mac",
+        "price": 99.99,
+        "category": "keyboard",
+        "specs": {"type": "wireless", "layout": "mac"},
+        "compatibility_tags": ["mac_keyboard", "wireless_keyboard"]
+      },
+      {
+        "id": "kb_002",
+        "name": "Corsair K70 RGB Gaming Keyboard",
+        "price": 149.99,
+        "category": "keyboard",
+        "specs": {"type": "mechanical", "layout": "windows"},
+        "compatibility_tags": ["gaming_keyboard", "mechanical_keyboard", "windows_keyboard"]
+      },
+      {
+        "id": "kb_003",
+        "name": "Microsoft Surface Keyboard",
+        "price": 79.99,
+        "category": "keyboard",
+        "specs": {"type": "wireless", "layout": "windows"},
+        "compatibility_tags": ["windows_keyboard", "wireless_keyboard"]
+      }
+    ],
+    "mouse": [
+      {
+        "id": "mouse_001",
+        "name": "Logitech MX Master 3 for Mac",
+        "price": 99.99,
+        "category": "mouse",
+        "specs": {"type": "wireless", "layout": "mac"},
+        "compatibility_tags": ["mac_mouse", "wireless_mouse"]
+      },
+      {
+        "id": "mouse_002",
+        "name": "Razer DeathAdder Gaming Mouse",
+        "price": 69.99,
+        "category": "mouse",
+        "specs": {"type": "wired", "layout": "windows"},
+        "compatibility_tags": ["gaming_mouse", "windows_mouse"]
+      },
+      {
+        "id": "mouse_003",
+        "name": "Microsoft Surface Mouse",
+        "price": 39.99,
+        "category": "mouse",
+        "specs": {"type": "wireless", "layout": "windows"},
+        "compatibility_tags": ["windows_mouse", "wireless_mouse"]
+      }
+    ],
+    "desk": [
+      {
+        "id": "desk_001",
+        "name": "IKEA BEKANT Desk 63x31",
+        "price": 199.99,
+        "category": "desk",
+        "specs": {"size": "63x31", "material": "particleboard"},
+        "compatibility_tags": []
+      }
+    ],
+    "chair": [
+      {
+        "id": "chair_001",
+        "name": "Herman Miller Aeron Chair",
+        "price": 1299.99,
+        "category": "chair",
+        "specs": {"ergonomic": true},
+        "compatibility_tags": []
+      },
+      {
+        "id": "chair_002",
+        "name": "IKEA MARKUS Office Chair",
+        "price": 199.99,
+        "category": "chair",
+        "specs": {"ergonomic": true},
+        "compatibility_tags": []
+      }
+    ],
+    "laptop": [
+      {
+        "id": "laptop_001",
+        "name": "MacBook Pro 14\" M3",
+        "price": 1999.99,
+        "category": "laptop",
+        "specs": {"os": "macos", "ports": ["usb_c", "thunderbolt"]},
+        "compatibility_tags": ["macbook"]
+      },
+      {
+        "id": "laptop_002",
+        "name": "Dell XPS 15 Windows Laptop",
+        "price": 1499.99,
+        "category": "laptop",
+        "specs": {"os": "windows", "ports": ["usb_a", "hdmi"]},
+        "compatibility_tags": ["windows_laptop"]
+      }
+    ],
+    "monitor_stand": [
+      {
+        "id": "stand_001",
+        "name": "VIVO Monitor Stand",
+        "price": 29.99,
+        "category": "monitor_stand",
+        "specs": {},
+        "compatibility_tags": []
+      }
+    ],
+    "hdmi_cable": [
+      {
+        "id": "hdmi_001",
+        "name": "Amazon Basics HDMI 2.1 Cable",
+        "price": 12.99,
+        "category": "hdmi_cable",
+        "specs": {"version": "2.1"},
+        "compatibility_tags": ["hdmi_2_1_cable"]
+      }
+    ],
+    "usb_cable": [
+      {
+        "id": "usb_001",
+        "name": "USB-A to USB-C Cable",
+        "price": 9.99,
+        "category": "usb_cable",
+        "specs": {},
+        "compatibility_tags": []
+      }
+    ],
+    "laptop_stand": [
+      {
+        "id": "lstand_001",
+        "name": "Rain Design mStand Laptop Stand",
+        "price": 59.99,
+        "category": "laptop_stand",
+        "specs": {},
+        "compatibility_tags": []
+      }
+    ],
+    "external_keyboard": [
+      {
+        "id": "ext_kb_001",
+        "name": "Logitech MX Keys",
+        "price": 99.99,
+        "category": "external_keyboard",
+        "specs": {"type": "wireless"},
+        "compatibility_tags": ["wireless_keyboard"]
+      }
+    ],
+    "external_mouse": [
+      {
+        "id": "ext_mouse_001",
+        "name": "Logitech MX Master 3",
+        "price": 99.99,
+        "category": "external_mouse",
+        "specs": {"type": "wireless"},
+        "compatibility_tags": ["wireless_mouse"]
+      }
+    ],
+    "usb_c_adapter": [
+      {
+        "id": "adapter_001",
+        "name": "USB-C to USB-A Adapter",
+        "price": 14.99,
+        "category": "usb_c_adapter",
+        "specs": {},
+        "compatibility_tags": []
+      }
+    ],
+    "docking_station": [
+      {
+        "id": "dock_001",
+        "name": "CalDigit TS3 Plus Thunderbolt Dock",
+        "price": 249.99,
+        "category": "docking_station",
+        "specs": {"type": "thunderbolt"},
+        "compatibility_tags": ["thunderbolt_dock"]
+      }
+    ],
+    "webcam": [
+      {
+        "id": "webcam_001",
+        "name": "Logitech C920 HD Webcam",
+        "price": 79.99,
+        "category": "webcam",
+        "specs": {"resolution": "1080p"},
+        "compatibility_tags": []
+      }
+    ],
+    "speakers": [
+      {
+        "id": "speaker_001",
+        "name": "Audioengine A2+ Speakers",
+        "price": 249.99,
+        "category": "speakers",
+        "specs": {},
+        "compatibility_tags": []
+      }
+    ],
+    "audio_cable": [
+      {
+        "id": "audio_001",
+        "name": "3.5mm Audio Cable",
+        "price": 7.99,
+        "category": "audio_cable",
+        "specs": {},
+        "compatibility_tags": []
+      }
+    ],
+    "gaming_headset": [
+      {
+        "id": "headset_001",
+        "name": "SteelSeries Arctis 7 Gaming Headset",
+        "price": 149.99,
+        "category": "gaming_headset",
+        "specs": {},
+        "compatibility_tags": []
+      }
+    ]
+  }
+}
+

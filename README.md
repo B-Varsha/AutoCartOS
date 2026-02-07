@@ -1,16 +1,15 @@
-# cartpilot_app
+# AutoCart OS 🚀
 
-A new Flutter project.
+AI-powered industrial procurement assistant.
 
-## Getting Started
+This Flutter app connects to our FastAPI multi-agent backend and generates smart industrial carts based on user problems.
 
-This project is a starting point for a Flutter application.
+## Tech Stack
+Flutter + FastAPI + Multi-Agent AI
 
-A few resources to get you started if this is your first Flutter project:
+## Features
+- AI cart generation
+- Industrial product recommendations
+- Cost estimation
+- Modern mobile UI
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
