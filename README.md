@@ -2,7 +2,7 @@
 
 AI-powered industrial procurement assistant.
 
-This Flutter app connects to our FastAPI multi-agent backend and generates smart industrial carts based on user problems.
+This Flutter app connects to our FastAPI multi-agent backend and generates smart industrial carts based on user problems. The Flutter Frontend provides the interactive interface that allows users to communicate their needs and visualize the engineered product bundles. It is designed to transform complex JSON data into a clean, actionable industrial procurement dashboard.
 
 ## Quick Start
 
@@ -27,19 +27,30 @@ curl -X POST http://localhost:8000/generate-cart \
 
 ## System Architecture
 
-See [ARCHITECTURE.md](ARCHITECTURE.md) for detailed system design.
+See [DESIGN_DOCUMENT.md](DESIGN_DOCUMENT.md) for detailed system design.
 
 ## Key Features
 
 - **6 Specialized Agents**: Intent → Planner → Dependency → Compatibility → Product Selection → Cart Composer
 - **Rule-Based Logic**: Deterministic dependency and compatibility validation
-- **LLM Integration**: Used only for natural language understanding and planning
+- **LLM Integration**: Used for perception and planning
 - **Complete Bundles**: Ensures all dependencies are satisfied
 - **Compatibility Validation**: Prevents incompatible component combinations
 - **Explainable**: Each agent's output is traceable through shared state
 
-## Project Structure
+## Frontend Project Structure
+```
+lib/
+├── services/
+│   └── api_service.dart      # Handles the HTTP connection to the FastAPI backend
+├── widgets/
+│   ├── logo.dart             # Branding and visual identity components
+│   ├── product_card.dart     # Individual item display with specs and price
+│   └── summary_card.dart     # Displays total price and the "Completeness Score"
+└── main.dart                 # Application entry point and global state management
 
+```
+## Backend Project Structure
 ```
 .
 ├── state.py           # Shared state definition
@@ -54,7 +65,7 @@ See [ARCHITECTURE.md](ARCHITECTURE.md) for detailed system design.
 
 ## Why This Is Not a Chatbot
 
-- **Deterministic Pipeline**: Fixed agent sequence with clear responsibilities
+- **Orchestrated Agentic Pipeline**: Fixed sequence of specialized agents with isolated responsibilities
 - **Structured Output**: JSON state updates, not conversational responses
 - **Rule-Based Validation**: Compatibility and dependencies use explicit rules
 - **Complete Bundles**: System ensures completeness, not just recommendations
